@@ -2,6 +2,7 @@ import requests
 import telebot
 from telebot import types
 
+
 bot = telebot.TeleBot(open('key').read())
 
 
